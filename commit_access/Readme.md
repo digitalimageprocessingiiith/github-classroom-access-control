@@ -12,6 +12,10 @@ If you are not part of the administrative group and you are a student, kindly co
 
 ### Pre-requisites
 1. `Github Authentication Token` : Create your personal access token following the steps from [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
+    a. Now set `AUTH_TOKEN` in the `access.sh` script to the access token you just created.
+
+    b. Also set the `OWNER` variable. This, generally is the name of the organisation with which you have created the github classroom.
 2. `CSV File`: csv file (no header), with each row having the following format - 
 ```.csv
 <student-user-name>,<assignment-repository-name>
